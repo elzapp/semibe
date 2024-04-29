@@ -1,6 +1,6 @@
 FROM docker.io/alpine:3.19.1
 LABEL org.opencontainers.image.authors="Bård Aase <bard.aase@dnb.no>"
-ABEL org.opencontainers.image.version="1.0.0"
+LABEL org.opencontainers.image.version="1.0.0"
 LABEL org.opencontainers.image.title="Sensible minimal build image"
 LABEL org.opencontainers.image.description="Sensible minimal build image"
 LABEL org.opencontainers.image.base.name="docker.io/alpine:3.19.1"
