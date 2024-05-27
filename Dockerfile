@@ -36,7 +36,7 @@ RUN apk add --no-cache \
         musl=1.2.5-r0 \
         musl-utils=1.2.5-r0 \
         ncurses-terminfo-base=6.4_p20240420-r0 \
-        nghttp2-libs-1.62.0-r0 \
+        nghttp2-libs=1.62.0-r0 \
         oniguruma=6.9.9-r0 \
         pcre2=10.43-r0 \
         readline=8.2.10-r0 \
