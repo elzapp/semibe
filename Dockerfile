@@ -1,9 +1,9 @@
-FROM docker.io/alpine:3.19.1
+FROM docker.io/alpine:3.20.0
 LABEL org.opencontainers.image.authors="Bård Aase <bard.aase@dnb.no>"
-LABEL org.opencontainers.image.version="1.0.0"
+LABEL org.opencontainers.image.version="1.0.1"
 LABEL org.opencontainers.image.title="Sensible minimal build image"
 LABEL org.opencontainers.image.description="Sensible minimal build image"
-LABEL org.opencontainers.image.base.name="docker.io/alpine:3.19.1"
+LABEL org.opencontainers.image.base.name="docker.io/alpine:3.20.0"
 RUN apk add --no-cache \
         alpine-baselayout=3.6.5-r0 \
         alpine-baselayout=3.6.5-r0 \
